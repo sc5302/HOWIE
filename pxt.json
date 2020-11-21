@@ -1,0 +1,23 @@
+{
+    "name": "KSB037",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "KSB037": "github:lioujj/ksb037#b577cd531c87646f3d37c38697b643abcbee8621",
+        "servo": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
